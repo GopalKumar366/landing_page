@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap'); */
 
 body{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 
     width: 1200px;
     margin: 0 auto;
@@ -80,9 +80,10 @@ ul{
 
 
 
-img{
+.rightcontent img{
     width: 500px;
     height: auto;
+    border: 2px solid blue;
 
 }
 
@@ -103,9 +104,71 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
-.image img{
- border: 0.5px solid lightblue;
- width: 100px;
+.randomtext{
+    font-weight: 900;
+    font-size: 36px;
+    margin: 50px;
+    color: #1f2937;
 }
+
+.info{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    
+}
+
+.info img{
+    width: 150px;
+    height: 150px;
+    
+    border: 2px solid green;
+    border-radius: 8px;
+    
+}
+
+.quote{
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: Center;
+    align-items: center;
+    padding: 100px;
+    width:1000px;
+}
+
+
+
+
+
+.quoteContent{
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+    
+    
+}
+
+.quoteauthor{
+    font-weight: bold;
+    align-self: flex-end;
+    padding-right: 140px;
+}
+
+
+
